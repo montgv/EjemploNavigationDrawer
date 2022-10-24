@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Menu
+Aqui borramos uno de los item y a los otros asociamos nuestros fragmentos con los id correspondientes
+aqui se deberian de cambiar los iconos tambien
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicioFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_inicio" />
+        <item
+            android:id="@+id/segundoFragment"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_segundo" />
+
+    </group>
+</menu>
